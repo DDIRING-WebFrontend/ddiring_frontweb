@@ -1,9 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
+import Link from "next/link";
+import "tailwindcss/tailwind.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -16,17 +18,21 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
+          {/*tailwindcss로 css 적용 했고, Link 태그 구글링 해보세요*/}
+          <h1 className="text-center text-blue-200 text-xl bg-black rounded-md hover:text-blue-700">
+            Read{" "}
+            <Link href="/pracTailwindcss/pracTailwindcssConponent">
+              this page for TailWindCSS!
+            </Link>
+          </h1>
+          {/*---------------------------------------------------------------------------------------*/}
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              By{" "}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -119,5 +125,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
