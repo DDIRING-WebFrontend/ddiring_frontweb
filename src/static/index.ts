@@ -1,2 +1,2 @@
-import logo from "./image/logo.png";
-export { logo };
+import moizaLogo from "./image/logo/moizaLogo.png";
+export { moizaLogo };

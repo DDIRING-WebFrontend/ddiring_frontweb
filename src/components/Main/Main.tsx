@@ -1,14 +1,16 @@
+import React from "react";
+
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "tailwindcss/tailwind.css";
 
-import { moizaLogo } from "../static/index";
+// import { moizaLogo } from "../../static/image/logo/index";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const Main = () => {
   return (
     <div className="m-auto lg:w-1/4 w-screen h-screen items-center flex justify-center shadow-xl">
       <Head>
@@ -17,14 +19,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="items-center m-1 flex justify-center flex-col">
+      <div className="bg-red-500 items-center m-1 flex justify-center flex-col">
         <div>
-          <Image
+          {/* <Image
             src={moizaLogo}
             width={200}
             alt="Logo"
             className="m-auto mb-32"
-          />
+          /> */}
+          mainpage
         </div>
         {/*tailwindcss로 css 적용 했고, Link 태그 구글링 해보세요*/}
         <h1 className="text-center text-black hover:text-gray-500 text-xl rounded-md ">
@@ -37,4 +40,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Main;
