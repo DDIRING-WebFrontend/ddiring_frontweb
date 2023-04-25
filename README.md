@@ -1,38 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+<h1> 🐤 Moiza 🐤 </h1>
+<br>
 
-## Getting Started
+![moziaLogo](https://user-images.githubusercontent.com/107379879/234223354-b1db1cf9-e3b7-4a15-909e-1aa703a41f5c.png)
 
-First, run the development server:
+친구들과의 시간 약속...
+<br>
+<br>
+5명과의 약속이라면 최소 3명은 늦는 상황이 비일비재합니다..
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h3> 친구들과의 약속도 지키면서 관계를 더욱더 돈독하게 하기 위해 만들었습니다! </h3>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
+시간과 장소를 정하고 내기 및 패널티 적용을 통해 재미와 관계의 이점도 동시에 챙기세요!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br><br>
+<h2> 🔨 구현 기능 🔨</h2>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<br>
+✔️ Oauth를 통한 여러 sns 로그인 기능 <br><br>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+✔️ 여러 sns를 이용해 비회원인 유저(지인)도 서비스를 이용할 수 있습니다. <br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+✔️ 실시간 위치 정보를 통해 유저(지인)의 위치를 확인 하며 스케줄 진행을 할 수 있게 했습니다. <br>
 
-## Learn More
+✔️ 또한 스케줄 기능으로 자체 스케줄까지도 꼼꼼하게 구성이 가능합니다. <br>
+<br><br>
+## Contributors💻
+|조무제|
+|-----|
+|Map API를 통해 유저 여러명의 실시간 위치 정보를 파악해서 진행 되는 내기 기능, UI 설계, 반응형 웹 페이지|
+|Front-end|
 
-To learn more about Next.js, take a look at the following resources:
+<br>
+<h2>⚙️ 기술 스택 </h2>
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![React](https://img.shields.io/badge/react-444444?style=for-the-badge&logo=react)
+![Nextjs](https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=nextjs)
+![Typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwindcss](https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br>
 
-## Deploy on Vercel
+## Member🌱
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💻 FE : <br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 조무제: https://github.com/moojecho <br>
+ 박예찬: https://github.com/sitisen<br>
+ 임환욱: https://github.com/yh-ook<br>
+
+<br><br>
+
+
+<br><br>
+
+---
+</div>
