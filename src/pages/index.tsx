@@ -34,7 +34,7 @@ export default function Home() {
           </Link>
         </h1>
         {/*---------------------------------------------------------------------------------------*/}
-        {/*tailwindcss로 css 적용 했고, Link 태그 구글링 해보세요*/}
+        {/*Loading page 링크입니다*/}
         <h1 className="text-center text-orange-600 hover:text-gray-500 text-xl rounded-md ">
           Read{" "}
           <Link href="/LoadingPage/Loading">
