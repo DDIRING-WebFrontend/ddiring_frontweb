@@ -37,7 +37,7 @@
 <br>
 
 ![React](https://img.shields.io/badge/react-444444?style=for-the-badge&logo=react)
-![Nextjs](https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=nextjs)
+![Nextjs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Redux](https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 ![Tailwindcss](https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
