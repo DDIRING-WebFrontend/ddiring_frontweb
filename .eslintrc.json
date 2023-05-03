@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": ".",
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "extends": [
+    "next",
+    "airbnb-typescript",
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/no-anonymous-default-export": [2, { "allowArrowFunction": true }]
+  }
 }
